@@ -55,6 +55,7 @@
             this.rbBoy.Size = new System.Drawing.Size(52, 20);
             this.rbBoy.TabIndex = 1;
             this.rbBoy.TabStop = true;
+            this.rbBoy.Tag = "Boy";
             this.rbBoy.Text = "Boy";
             this.rbBoy.UseVisualStyleBackColor = true;
             this.rbBoy.CheckedChanged += new System.EventHandler(this.rbBoy_CheckedChanged);
@@ -67,6 +68,7 @@
             this.rbGirl.Size = new System.Drawing.Size(48, 20);
             this.rbGirl.TabIndex = 2;
             this.rbGirl.TabStop = true;
+            this.rbGirl.Tag = "Girl";
             this.rbGirl.Text = "Girl";
             this.rbGirl.UseVisualStyleBackColor = true;
             this.rbGirl.CheckedChanged += new System.EventHandler(this.rbGirl_CheckedChanged);
@@ -79,6 +81,7 @@
             this.rbBook.Size = new System.Drawing.Size(60, 20);
             this.rbBook.TabIndex = 3;
             this.rbBook.TabStop = true;
+            this.rbBook.Tag = "Book";
             this.rbBook.Text = "Book";
             this.rbBook.UseVisualStyleBackColor = true;
             this.rbBook.CheckedChanged += new System.EventHandler(this.rbBook_CheckedChanged);
@@ -91,6 +94,7 @@
             this.rbPen.Size = new System.Drawing.Size(52, 20);
             this.rbPen.TabIndex = 4;
             this.rbPen.TabStop = true;
+            this.rbPen.Tag = "Pen";
             this.rbPen.Text = "Pen";
             this.rbPen.UseVisualStyleBackColor = true;
             this.rbPen.CheckedChanged += new System.EventHandler(this.rbPen_CheckedChanged);
@@ -104,6 +108,7 @@
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(152, 59);
             this.lblTitle.TabIndex = 5;
+            this.lblTitle.Tag = "Boy";
             this.lblTitle.Text = "Title";
             // 
             // Form1
