@@ -21,23 +21,30 @@ namespace PictureBox_Exercise
         private void rbBoy_CheckedChanged(object sender, EventArgs e)
         {
             pictureBox1.Image = Resources.Boy;
+            lblTitle.Text = "Boy";
+
         }
 
         private void rbGirl_CheckedChanged(object sender, EventArgs e)
         {
             pictureBox1.Image = Resources.Girl;
+            lblTitle.Text = "Girl";
 
         }
 
         private void rbBook_CheckedChanged(object sender, EventArgs e)
         {
             pictureBox1.Image = Resources.Book;
+            lblTitle.Text = "Book";
+
 
         }
 
         private void rbPen_CheckedChanged(object sender, EventArgs e)
         {
             pictureBox1.Image = Resources.Pen;
+            lblTitle.Text = "Pen";
+
 
         }
     }

@@ -33,13 +33,14 @@
             this.rbGirl = new System.Windows.Forms.RadioButton();
             this.rbBook = new System.Windows.Forms.RadioButton();
             this.rbPen = new System.Windows.Forms.RadioButton();
+            this.lblTitle = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PictureBox_Exercise.Properties.Resources.Boy;
-            this.pictureBox1.Location = new System.Drawing.Point(228, 52);
+            this.pictureBox1.Location = new System.Drawing.Point(228, 87);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(395, 226);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -49,7 +50,7 @@
             // rbBoy
             // 
             this.rbBoy.AutoSize = true;
-            this.rbBoy.Location = new System.Drawing.Point(228, 323);
+            this.rbBoy.Location = new System.Drawing.Point(228, 359);
             this.rbBoy.Name = "rbBoy";
             this.rbBoy.Size = new System.Drawing.Size(52, 20);
             this.rbBoy.TabIndex = 1;
@@ -61,7 +62,7 @@
             // rbGirl
             // 
             this.rbGirl.AutoSize = true;
-            this.rbGirl.Location = new System.Drawing.Point(324, 323);
+            this.rbGirl.Location = new System.Drawing.Point(324, 359);
             this.rbGirl.Name = "rbGirl";
             this.rbGirl.Size = new System.Drawing.Size(48, 20);
             this.rbGirl.TabIndex = 2;
@@ -73,7 +74,7 @@
             // rbBook
             // 
             this.rbBook.AutoSize = true;
-            this.rbBook.Location = new System.Drawing.Point(442, 323);
+            this.rbBook.Location = new System.Drawing.Point(442, 359);
             this.rbBook.Name = "rbBook";
             this.rbBook.Size = new System.Drawing.Size(60, 20);
             this.rbBook.TabIndex = 3;
@@ -85,7 +86,7 @@
             // rbPen
             // 
             this.rbPen.AutoSize = true;
-            this.rbPen.Location = new System.Drawing.Point(571, 323);
+            this.rbPen.Location = new System.Drawing.Point(571, 359);
             this.rbPen.Name = "rbPen";
             this.rbPen.Size = new System.Drawing.Size(52, 20);
             this.rbPen.TabIndex = 4;
@@ -94,11 +95,23 @@
             this.rbPen.UseVisualStyleBackColor = true;
             this.rbPen.CheckedChanged += new System.EventHandler(this.rbPen_CheckedChanged);
             // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblTitle.Location = new System.Drawing.Point(350, 9);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(152, 59);
+            this.lblTitle.TabIndex = 5;
+            this.lblTitle.Text = "Title";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.rbPen);
             this.Controls.Add(this.rbBook);
             this.Controls.Add(this.rbGirl);
@@ -119,6 +132,7 @@
         private System.Windows.Forms.RadioButton rbGirl;
         private System.Windows.Forms.RadioButton rbBook;
         private System.Windows.Forms.RadioButton rbPen;
+        private System.Windows.Forms.Label lblTitle;
     }
 }
 
