@@ -1,0 +1,11 @@
+C:\Users\User\Source\Repos\PictureBox Exercise\bin\Debug\PictureBox Exercise.exe.config
+C:\Users\User\Source\Repos\PictureBox Exercise\bin\Debug\PictureBox Exercise.exe
+C:\Users\User\Source\Repos\PictureBox Exercise\bin\Debug\PictureBox Exercise.pdb
+C:\Users\User\Source\Repos\PictureBox Exercise\obj\Debug\PictureBox Exercise.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\PictureBox Exercise\obj\Debug\PictureBox Exercise.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Source\Repos\PictureBox Exercise\obj\Debug\PictureBox_Exercise.Form1.resources
+C:\Users\User\Source\Repos\PictureBox Exercise\obj\Debug\PictureBox_Exercise.Properties.Resources.resources
+C:\Users\User\Source\Repos\PictureBox Exercise\obj\Debug\PictureBox Exercise.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\PictureBox Exercise\obj\Debug\PictureBox Exercise.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\PictureBox Exercise\obj\Debug\PictureBox Exercise.exe
+C:\Users\User\Source\Repos\PictureBox Exercise\obj\Debug\PictureBox Exercise.pdb
